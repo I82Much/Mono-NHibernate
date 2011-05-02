@@ -100,13 +100,11 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Domain\Product.cs" />
-    <Compile Include="Drivers\MonoSqliteDriver.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Domain\" />
     <Folder Include="Mappings\" />
-    <Folder Include="Drivers\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mappings\Product.hbm.xml" />

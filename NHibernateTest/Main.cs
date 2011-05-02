@@ -18,8 +18,6 @@ namespace NHibernateTest
 			// ensure that mapping hbm.xml file is loaded
 			cfg.AddAssembly(typeof(MainClass).Assembly);
 			
-			
-			
 			Product p = new Product() {Name="Captains of Crush Gripper #1", Category="fitness" };
 			
 			ISessionFactory factory = 
