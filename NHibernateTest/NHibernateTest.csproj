@@ -75,6 +75,26 @@
     </Reference>
     <Reference Include="Mono.Data.Sqlite">
     </Reference>
+    <Reference Include="MySql.Web, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Desktop\mysql-connector-net-6.3.6-noinstall\v2\mysql.web.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Desktop\mysql-connector-net-6.3.6-noinstall\v2\mysql.data.entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Desktop\mysql-connector-net-6.3.6-noinstall\v2\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.VisualStudio, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Desktop\mysql-connector-net-6.3.6-noinstall\v2\mysql.visualstudio.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.CF, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Desktop\mysql-connector-net-6.3.6-noinstall\v2\mysql.data.cf.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
