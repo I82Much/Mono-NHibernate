@@ -23,8 +23,6 @@ namespace NHibernateTest
 			ISessionFactory factory = 
 				cfg.BuildSessionFactory();
 			
-			
-			
 			using (ISession session = factory.OpenSession()) 
 			{ 
 				session.Save(p);
@@ -38,7 +36,6 @@ namespace NHibernateTest
 			factory.Close(); 
 			
 			Console.WriteLine( products.Count );
-			
 			
 			Console.WriteLine ("Hello World!");
 		}

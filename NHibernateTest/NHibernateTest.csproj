@@ -73,8 +73,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Desktop\NHibernate-3.2.0.Alpha2-src\lib\mono\NVelocity.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Data.Sqlite">
-    </Reference>
     <Reference Include="MySql.Web, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Desktop\mysql-connector-net-6.3.6-noinstall\v2\mysql.web.dll</HintPath>
@@ -107,11 +105,11 @@
     <Folder Include="Mappings\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mappings\Product.hbm.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="hibernate.cfg.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mappings\Product.hbm.xml" />
   </ItemGroup>
 </Project>
